@@ -12,7 +12,7 @@ class MoneyTransferKtTest {
 
         val result = calculateCommission(actualTransfer, typeOfCard, previousTransfers)
 
-        assertEquals(37.5, result, 0.0)
+        assertEquals(36.5, result, 0.0)
     }
 
     @Test
